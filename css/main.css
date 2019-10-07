@@ -15,7 +15,7 @@ h1 {
   box-sizing: inherit;
 }
 
-.links a {
+a {
   display: inline-block;
   padding: .5em .75em;
   margin: .3em;
@@ -26,7 +26,7 @@ h1 {
   font-weight: lighter;
 }
 
-.links a:hover {
+a:hover {
   background-color: #f33;
   color: #fff;
 }
