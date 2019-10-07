@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: "Sans-serif", sans-serif;
+  font-family: Sans-serif, sans-serif;
   display: inline-block;
   width: 100%;
 }
@@ -12,7 +12,7 @@ ul {
 }
 
 h1 {
-  font-family: "Bevan";
+  font-family: Bevan;
   margin: inherit;
 }
 
@@ -30,6 +30,7 @@ li {
 nav {
   margin: inherit;
 }
+
 li a {
   color: #fff;
   text-decoration: none;
