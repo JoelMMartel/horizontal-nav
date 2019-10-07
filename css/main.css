@@ -37,7 +37,7 @@ li a {
   font-weight: lighter;
 }
 
-li:hover {
+.navi li:hover {
   background-color: #f33;
   color: #fff;
 }
@@ -49,5 +49,5 @@ body {
   border: 3px solid #595652;
   text-align: center;
   color: #fff;
-  margin: .3em;
+  margin: auto;
 }
