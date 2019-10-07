@@ -1,1 +1,27 @@
-font-family: 'Bevan', cursive;
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: 'Sans-serif', sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  display: block;
+  font-family: 'Bevan', cursive;\
+  text-align: center;
+}
+
+.links a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #713837;
+  border-radius: 4px;
+  color: #fff;
+  margin: .3em;
+  text-decoration: none;
+  font-weight: lighter;
+}
