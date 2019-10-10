@@ -2,13 +2,17 @@ html {
   box-sizing: border-box;
   background-color: #dbd6cf;
   font-family: Bevan;
-  display: block;
-  width: 100%;
+  min-width: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 ul {
   list-style-type: none;
   display: inline-block;
+  text-align: center;
 }
 
 h1 {
@@ -46,5 +50,9 @@ body {
   border: 3px solid #595652;
   text-align: center;
   color: #fff;
-  margin: 0px -3px;
+  margin: .3em;
+}
+
+nav {
+vertical-align: center;
 }
