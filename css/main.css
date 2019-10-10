@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #dbd6cf;
   min-width: 100%;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -16,16 +17,22 @@ ul {
 
 h1 {
   font-family: Bevan, cursive;
-  margin: .3em
+  margin-bottom: 0em;
+  margin-top: .3em;
+}
+
+ul {
+  margin-top: 0em;
+  margin-bottom: .3em;
 }
 
 li {
   display: inline-block;
-  padding: .6em;
+  padding: .5em .75em;
   background-color: #713837;
   border-radius: 4px;
   font-family: sans-serif;
-  margin: auto;
+  margin: .3em;
 }
 
 li a {
@@ -46,5 +53,5 @@ body {
   border: 3px solid #595652;
   text-align: center;
   color: #fff;
-  margin: auto;
+  margin: 0em;
 }
