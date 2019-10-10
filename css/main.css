@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: sans-serif;
+  font-family: 'Bevan';
   display: inline-block;
   width: 100%;
 }
@@ -9,10 +9,11 @@ html {
 ul {
   list-style-type: none;
   display: inline-block;
+  margin: .3em;
 }
 
 h1 {
-  font-family: "Bevan", cursive;
+  font-family: inherit;
   margin: inherit;
 }
 
@@ -25,16 +26,12 @@ li {
   padding: .5em .75em;
   background-color: #713837;
   border-radius: 4px;
-}
-
-nav {
-  margin: inherit;
+  font-family: sans-serif;
 }
 
 li a {
   color: #fff;
   text-decoration: none;
-  font-weight: lighter;
 }
 
 .navi li:hover {
@@ -44,10 +41,10 @@ li a {
 
 body {
   display: block;
-  min-width: 100%;
+  width: 100%;
   background-color: #79756f;
   border: 3px solid #595652;
   text-align: center;
   color: #fff;
-  margin: auto;
+  margin: 0 auto;
 }
