@@ -37,6 +37,10 @@ li a {
   text-decoration: none;
 }
 
+a {;
+  color: #fff;
+}
+
 li:hover {
   background-color: #f33;
   color: #fff;
