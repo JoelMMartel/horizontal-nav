@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #dbd6cf;
   font-family: Bevan;
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
@@ -43,8 +43,8 @@ body {
   display: block;
   width: 100%;
   background-color: #79756f;
-  border: 3px 0px 3px 0px solid #595652;
+  border: 3px solid #595652;
   text-align: center;
   color: #fff;
-  margin: auto;
+  margin: 0px -3px;
 }
