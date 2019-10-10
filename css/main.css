@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: 'Bevan';
+  font-family: Bevan;
   display: inline-block;
   width: 100%;
 }
@@ -9,11 +9,10 @@ html {
 ul {
   list-style-type: none;
   display: inline-block;
-  margin: .3em;
 }
 
 h1 {
-  font-family: inherit;
+  font-family: Bevan;
   margin: inherit;
 }
 
@@ -23,7 +22,7 @@ h1 {
 
 li {
   display: inline-block;
-  padding: .5em .75em;
+  padding: .6em;
   background-color: #713837;
   border-radius: 4px;
   font-family: sans-serif;
@@ -32,6 +31,7 @@ li {
 li a {
   color: #fff;
   text-decoration: none;
+
 }
 
 .navi li:hover {
@@ -46,5 +46,5 @@ body {
   border: 3px solid #595652;
   text-align: center;
   color: #fff;
-  margin: 0 auto;
+  margin: 0em;
 }
