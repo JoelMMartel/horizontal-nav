@@ -17,11 +17,7 @@ ul {
 
 h1 {
   margin: inherit;
-  font-family: 'Bevan', cursive;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
+  font-family: "Bevan", cursive;
 }
 
 li {
@@ -50,9 +46,8 @@ body {
   border: 3px solid #595652;
   text-align: center;
   color: #fff;
-  margin: .3em;
 }
 
 nav {
-vertical-align: center;
+  vertical-align: center;
 }
