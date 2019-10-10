@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: Bevan;
   min-width: 100%;
 }
 
@@ -16,8 +15,8 @@ ul {
 }
 
 h1 {
-  margin: inherit;
   font-family: Bevan, cursive;
+  margin: .3em
 }
 
 li {
@@ -26,6 +25,7 @@ li {
   background-color: #713837;
   border-radius: 4px;
   font-family: sans-serif;
+  margin: auto;
 }
 
 li a {
@@ -33,7 +33,7 @@ li a {
   text-decoration: none;
 }
 
-ol li:hover {
+li:hover {
   background-color: #f33;
   color: #fff;
   border-color: #f33;
@@ -46,4 +46,5 @@ body {
   border: 3px solid #595652;
   text-align: center;
   color: #fff;
+  margin: auto;
 }
