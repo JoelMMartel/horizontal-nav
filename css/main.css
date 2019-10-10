@@ -12,7 +12,7 @@ ul {
 }
 
 h1 {
-  font-family: Bevan;
+  font-family: Bevan, regular;
   margin: inherit;
 }
 
@@ -31,10 +31,9 @@ li {
 li a {
   color: #fff;
   text-decoration: none;
-
 }
 
-.navi li:hover {
+li:hover {
   background-color: #f33;
   color: #fff;
 }
@@ -46,5 +45,5 @@ body {
   border: 3px solid #595652;
   text-align: center;
   color: #fff;
-  margin: 0em;
+  margin: auto;
 }
